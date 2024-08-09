@@ -1,0 +1,38 @@
+{
+  "id": "a0972a12-b028-4717-a767-b26da3864425",
+  "name": "OrbusApp",
+  "publisher": "Orbus",
+  "version": "1.0.1.19",
+  "runtime": "9.0",
+  "target": "Cloud",
+  "application": "21.5.53619.53813",
+  "platform": "1.0.0.0",
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+  "features": [
+    "NOIMPLICITWITH"
+  ],
+  "dependencies": [
+    {
+      "id": "12968b6e-b233-40e8-8ebc-160ee407d489",
+      "name": "Shop Floor Insight",
+      "version": "7.11.8432.2",
+      "publisher": "Insight Works"
+    },
+    {
+      "id": "ba1776ba-1198-4b4c-a61e-c4612f1880d5",
+      "name": "IWorks Common",
+      "version": "2.12.8676.3",
+      "publisher": "Insight Works"
+    }
+  ],
+  "idRanges": [
+    {
+      "from": 50120,
+      "to": 60149
+    }
+  ]
+}
